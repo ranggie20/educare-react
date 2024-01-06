@@ -1,0 +1,85 @@
+
+/* featured course start */
+.feature_green_btn {
+    width: 141px;
+  }
+  
+  .featured_wrapper {
+    padding: 100px 0;
+    background-color: var(--neutralColor);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .featured_buttons {
+    display: flex;
+    gap: 42px;
+    justify-content: center;
+    margin-top: 48px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .featured_wrapper h1 {
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 66px */
+  }
+  
+  .featured_card {
+    padding: 22px 22px 24px 22px;
+    border-radius: 21px;
+    border: 1px solid #EEE;
+    background: var(--neutralColor2);
+    text-align: left;
+    margin-top: 48px;
+  }
+  
+  .featured_card h3 {
+    color: var(--neutralColor);
+    font-family: 'Syne', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+  }
+  
+  .featured_card:hover {
+    border: 1px solid #B6EC3D;
+    cursor: pointer;
+  
+  }
+  
+  .rating {
+    display: flex;
+    width: 81px;
+    height: 42px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 56px;
+    background: #FEFCEF;
+    border: none;
+  }
+  
+  .rating_number {
+    color: #747474;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  
+  .rating_number strong {
+    color: #131C1E;
+  }
+  

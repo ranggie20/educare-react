@@ -8,6 +8,7 @@ import FeaturesCourse from '../../components/FeaturesCourse/FeaturesCourse';
 import Instructor from '../../components/Instructor/Instructor';
 import StudentsFeedBack1 from '../../components/StudentsFeedBack1/StudentsFeedBack1';
 import LatestBlog from './../../components/Home1/LatestBlog/LatestBlog';
+import Membership from '../../components/Membership/Membership';
 
 const Home1 = () => {
     return (
@@ -21,6 +22,7 @@ const Home1 = () => {
             <Instructor />
             <StudentsFeedBack1 />
             <LatestBlog />
+            <Membership />
         </div>
     );
 };
