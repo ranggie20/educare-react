@@ -1,12 +1,13 @@
 import React from 'react'
-
+import './NavBar.css';
+import logo from '../../assets/home1/greenlogo1.png'
 const NavBar = () => {
     return (
-        <div>    <header>
+        <div>
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">
-                        <img class="img-fluid logoImg" src="./assets/home1/greenlogo1.png" alt="Logo" />
+                        <img class="img-fluid logoImg" src={logo} alt="Logo" />
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -32,7 +33,6 @@ const NavBar = () => {
                                 <a class="nav-link  d-flex align-items-center gap-2  " href="About.html">
                                     About
                                 </a>
-
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link  dropdown-toggle  d-flex align-items-center gap-2 justify-content-center"
@@ -41,7 +41,6 @@ const NavBar = () => {
                                     <span>
                                         Course
                                     </span> <i class="fa mt-1">&#xf107;</i>
-
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="Course1.html">Course 1</a></li>
@@ -90,14 +89,13 @@ const NavBar = () => {
                             <a href="login.html" class="" type="submit">Login</a>
                             <button class="signup_button">
                                 <a href="signup.html" class="" type="submit"><img src="/assets/home1/user-circle.png"
-                                    alt=""/>
+                                    alt="" />
                                     Create Account</a>
                             </button>
                         </form>
                     </div>
                 </div>
             </nav>
-        </header>
         </div>
     )
 }
