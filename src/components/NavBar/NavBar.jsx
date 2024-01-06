@@ -1,12 +1,15 @@
-import React from 'react'
+import React from 'react';
 import './NavBar.css';
-import logo from '../../assets/home1/greenlogo1.png'
+import logo from '../../assets/home1/greenlogo1.png';
+import user from '../../assets/home1/user-circle.png';
+
 const NavBar = () => {
+
     return (
         <div>
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="/">
                         <img class="img-fluid logoImg" src={logo} alt="Logo" />
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -18,34 +21,34 @@ const NavBar = () => {
                         <ul class="navbar-nav m-auto text-center">
                             <li class="nav-item dropdown">
                                 <a class="nav-link active dropdown-toggle d-flex align-items-center gap-2 justify-content-center"
-                                    href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
                                     <span>Home</span> <i class="fa mt-1">&#xf107;</i>
 
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="index.html">Home 1</a></li>
-                                    <li><a class="dropdown-item" href="Home2.html">Home 2</a></li>
-                                    <li><a class="dropdown-item" href="Home3.html">Home 3</a></li>
+                                    <li><a class="dropdown-item" href="/">Home 1</a></li>
+                                    <li><a class="dropdown-item" href="/home2">Home 2</a></li>
+                                    <li><a class="dropdown-item" href="/home3">Home 3</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link  d-flex align-items-center gap-2  " href="About.html">
+                                <a class="nav-link  d-flex align-items-center gap-2  " href="/about">
                                     About
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link  dropdown-toggle  d-flex align-items-center gap-2 justify-content-center"
-                                    href="Course.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
                                     <span>
                                         Course
                                     </span> <i class="fa mt-1">&#xf107;</i>
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="Course1.html">Course 1</a></li>
-                                    <li><a class="dropdown-item" href="Course2.html">Course 2</a></li>
-                                    <li><a class="dropdown-item" href="instructor.html">Instructor</a></li>
+                                    <li><a class="dropdown-item" href="/course1">Course 1</a></li>
+                                    <li><a class="dropdown-item" href="/course2">Course 2</a></li>
+                                    <li><a class="dropdown-item" href="/instructor">Instructor</a></li>
 
                                 </ul>
                             </li>
@@ -59,13 +62,13 @@ const NavBar = () => {
                                     </span> <i class="fa mt-1">&#xf107;</i>
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="/EventsGrid.html">Events Grid</a></li>
-                                    <li><a class="dropdown-item" href="/EventsList.html">Events List</a></li>
-                                    <li><a class="dropdown-item" href="/EventsDetails.html">Events Details</a></li>
-                                    <li><a class="dropdown-item" href="Gallary.html">Gallery</a></li>
-                                    <li><a class="dropdown-item" href="/Testimonial.html">Testimonial</a></li>
-                                    <li><a class="dropdown-item" href="/ContactUs.html">Contact Us</a></li>
-                                    <li><a class="dropdown-item" href="/404.html">404 page</a></li>
+                                    <li><a class="dropdown-item" href="eventsGrid">Events Grid</a></li>
+                                    <li><a class="dropdown-item" href="/eventslist">Events List</a></li>
+                                    <li><a class="dropdown-item" href="/eventsDetails">Events Details</a></li>
+                                    <li><a class="dropdown-item" href="/gallary">Gallery</a></li>
+                                    <li><a class="dropdown-item" href="/testimonial">Testimonial</a></li>
+                                    <li><a class="dropdown-item" href="/contactUs">Contact Us</a></li>
+                                    <li><a class="dropdown-item" href="/error">404 page</a></li>
                                 </ul>
                             </li>
 
@@ -78,17 +81,17 @@ const NavBar = () => {
                                     </span> <i class="fa mt-1">&#xf107;</i>
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="/Blog.html">Blog</a></li>
-                                    <li><a class="dropdown-item" href="/BlogDetails.html">Blog Details</a></li>
+                                    <li><a class="dropdown-item" href="/blog">Blog</a></li>
+                                    <li><a class="dropdown-item" href="/blogDetails">Blog Details</a></li>
 
                                 </ul>
                             </li>
 
                         </ul>
                         <form class="d-flex gap-4 authBtn">
-                            <a href="login.html" class="" type="submit">Login</a>
+                            <a href="/login" class="" type="submit">Login</a>
                             <button class="signup_button">
-                                <a href="signup.html" class="" type="submit"><img src="/assets/home1/user-circle.png"
+                                <a href="/signup" class="" type="submit"><img src={user}
                                     alt="" />
                                     Create Account</a>
                             </button>

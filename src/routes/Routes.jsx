@@ -4,7 +4,6 @@ import Home1 from './../pages/Home1/Home1';
 import About from "../pages/About/About";
 import Course1 from './../pages/Course/Course1';
 import Course2 from './../pages/Course/Course2';
-import Instructor from "../components/Instructor/Instructor";
 import EventsGrid from './../pages/Events/EventsGrid';
 import EventsList from './../pages/Events/EventsList';
 import EventsDetails from "../pages/Events/EventsDetails";
@@ -14,6 +13,7 @@ import ContactUs from "../pages/ContactUs/ContactUs";
 import Error404 from "../pages/Error404";
 import BlogDetails from './../pages/Blog/BlogDetails';
 import Blog from "../pages/Blog/Blog";
+import Instructor from './../pages/Instructor/Instructor';
 
 export const router = createBrowserRouter([
     {
