@@ -20,7 +20,6 @@ const StudentTestimonialCard = () => {
                             <p class="common_para">87% of people learning for professional development report career
                                 benefits <br /> like getting a promotion starting a new career in every world</p>
                             <div class=" slick-slider row mt_32">
-
                                 <div class="slide col-lg-4">
                                     <div class="test_card">
                                         <div class="mb_30 d-flex">
@@ -84,7 +83,6 @@ const StudentTestimonialCard = () => {
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>

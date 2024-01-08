@@ -647,7 +647,7 @@ footer hr {
 
 .works_wrapper::after {
   position: absolute;
-  content: url(/assets/home1/curve3.png);
+  content: url('./assets/home1/curve3.png');
   top: 38px;
   left: 211px;
   z-index: -1;

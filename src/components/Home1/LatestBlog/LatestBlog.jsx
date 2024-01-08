@@ -4,7 +4,7 @@ import blog1 from '../../../assets/home1/blog1.png'
 
 const LatestBlog = () => {
   return (
-    <div>
+    <>
       <div class="shadow_green_both">
         <section class="ourlatest_blog">
           <div class="container">
@@ -63,7 +63,7 @@ const LatestBlog = () => {
         </section>
       </div>
 
-    </div>
+    </>
   )
 }
 

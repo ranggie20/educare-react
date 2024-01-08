@@ -1,9 +1,11 @@
 import React from 'react'
+import how1 from '../../assets/home1/how1.png';
+import how2 from '../../assets/home1/how2.png';
+import how3 from '../../assets/home1/how3.png';
+import how4 from '../../assets/home1/how4.png';
+
 import './HowItWorks.css'
-import how1 from '../../assets/home1/how1.png'
-import how2 from '../../assets/home1/how2.png'
-import how3 from '../../assets/home1/how3.png'
-import how4 from '../../assets/home1/how4.png'
+
 const HowItWorks = () => {
   return (
     <div>
