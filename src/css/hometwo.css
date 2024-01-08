@@ -47,7 +47,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--primaryColor);
+    background: #B6EC3D;
     border-radius: 10px;
 }
 
@@ -89,7 +89,7 @@
 
 /* color */
 .text-clr-primaryColor {
-    color: var(--primaryColor);
+    color: #B6EC3D;
 }
 
 .text-clr-secondary {
@@ -154,13 +154,13 @@
 }
 
 .nav-item :hover {
-    color: var(--primaryColor);
+    color: #B6EC3D;
     cursor: pointer;
 
 }
 
 .nav-link :hover {
-    color: var(--primaryColor);
+    color: #B6EC3D;
     cursor: pointer;
 
 }
@@ -169,12 +169,12 @@
 
 /* .navbar-nav .nav-link.show */
     {
-    color: var(--primaryColor);
+    color: #B6EC3D;
 }
 
 .dropdown-item.active,
 .dropdown-item:active {
-    color: var(--primaryColor);
+    color: #B6EC3D;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -308,7 +308,7 @@ footer p:last-child {
 }
 
 footer ul li a:hover {
-    color: var(--primaryColor);
+    color: #B6EC3D;
     cursor: pointer;
 
 }
@@ -513,7 +513,7 @@ header {
 }
 
 .banner_title span {
-    color: var(--primaryColor);
+    color: #B6EC3D;
 }
 
 .right_wrapper .category_items {
@@ -670,14 +670,14 @@ header {
 /* main css end here */
 
 .about_btn {
-    background-color: var(--primaryColor) !important;
+    background-color: #B6EC3D !important;
     color: white;
-    border: 1px solid var(--primaryColor);
+    border: 1px solid #B6EC3D;
 }
 
 .about_btn:hover {
     background: #131C1E;
-    border: 1px solid var(--primaryColor);
+    border: 1px solid #B6EC3D;
 }
 
 .home2Feature_course .price_btn:hover {
@@ -733,7 +733,7 @@ header {
 }
 
 .home2Feature_course .featured_card:hover {
-    border: 1px solid var(--primaryColor);
+    border: 1px solid #B6EC3D;
     cursor: pointer;
 }
 
@@ -787,7 +787,7 @@ header {
 
 .home2Feature_course .explore_courses_btn {
     border-radius: 11px;
-    background: var(--primaryColor);
+    background: #B6EC3D;
     display: flex;
     width: 219px;
     height: 57px;
@@ -805,7 +805,7 @@ header {
 
 .home2_course_timing {
     border-radius: 0px 5px 5px 0px;
-    background: var(--primaryColor);
+    background: #B6EC3D;
     width: 118px;
     height: 36px;
     color: #FFF;
@@ -824,7 +824,7 @@ header {
 }
 
 .bg_primary {
-    background-color: var(--primaryColor);
+    background-color: #B6EC3D;
 }
 
 .border_white {
@@ -998,7 +998,7 @@ header {
 .membership_wrapper {
     padding: 69px 0;
     border-radius: 56px;
-    background: var(--primaryColor);
+    background: #B6EC3D;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -1077,7 +1077,7 @@ header {
 
 
 .slick-dots .slick-active button:before {
-    border: 3px solid var(--primaryColor);
+    border: 3px solid #B6EC3D;
     width: 18px !important;
     height: 18px !important;
     border-radius: 50%;

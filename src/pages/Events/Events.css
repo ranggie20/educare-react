@@ -35,7 +35,7 @@
 }
 
 /* .events_card_wr:hover .event_date{
-    background:var(--primaryColor);
+    background:#B6EC3D;
     
 }
 .events_card_wr:hover .ticket_btn{
@@ -236,7 +236,7 @@
     align-items: center;
     gap: 8px;
     border-radius: 11px;
-    background: var(--primaryColor);
+    background: #B6EC3D;
     color: var(--neutralColor);
     /* B2/Body 2 (Medium) */
     font-family: Outfit;

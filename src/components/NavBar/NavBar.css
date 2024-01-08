@@ -29,13 +29,13 @@
   }
   
   .nav-item :hover {
-    color: var(--primaryColor);
+    color: #B6EC3D;
     cursor: pointer;
   
   }
   
   .navbar-nav .nav-link.active {
-    color: var(--primaryColor);
+    color: #B6EC3D;
   }
   
   .dropdown-toggle::after {
@@ -44,7 +44,7 @@
   
   .dropdown-item.active,
   .dropdown-item:active {
-    color: var(--primaryColor);
+    color: #B6EC3D;
   }
   
   .navbar-expand-lg .navbar-nav .nav-link {

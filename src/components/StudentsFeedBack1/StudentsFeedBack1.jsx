@@ -6,7 +6,7 @@ import greenstart from '../../assets/home1/greenstart.png'
 const StudentsFeedBack1 = () => {
   return (
     <>
-      <section class="community_wrapper mb_130 slider_margin1" style={{ overflow: "hidden" }}>
+      <section class="community_wrapper mb_130" style={{ overflow: "hidden" }}>
         <div class="container ">
           <div class="slick-slider_testimonial">
             <div class="slide">
