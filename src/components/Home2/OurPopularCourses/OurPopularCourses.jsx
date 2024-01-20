@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../Home2/Home2.css';
 
 const OurPopularCourses = () => {
   return (

@@ -6,10 +6,13 @@ import BestCarrierOffer from '../../components/Home2/BestCarrierOffer/BestCarrie
 import OurPopularCourses from '../../components/Home2/OurPopularCourses/OurPopularCourses';
 import FreeWorkShop from '../../components/Home2/FreeWorkShop/FreeWorkShop';
 import OnlineClasses from '../../components/Home2/OnlineClasses/OnlineClasses';
+import Home2Header from './Home2Header';
+import './Home2.css';
 
 const Home2 = () => {
     return (
         <>
+            <Home2Header />
             <Home2Banner />
             <InterestingQualities />
             <CourseCategories />
