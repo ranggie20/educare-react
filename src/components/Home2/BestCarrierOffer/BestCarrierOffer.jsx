@@ -3,15 +3,16 @@ import '../../Home2/Home2.css';
 
 import top_categories from '../../../assets/home2/top_categories.png'
 import whatweare from '../../../assets/home2/whatweare-img.png';
+import icon1 from '../../../assets/home2/whatweare-icon1.png';
+import icon2 from '../../../assets/home2/whatweare-icon2.png';
+import icon3 from '../../../assets/home2/whatweare-icon3.png';
 
 const BestCarrierOffer = () => {
   return (
     <>
-
       <section class="whatweare" style={{ overflowX: "hidden" }}>
         <div class="container">
           <div class="row flex-lg-row flex-column-reverse align-items-center">
-
             <div class="col-lg-6">
               <div class="whatweare_img wow fadeInLeft" data-wow-duration="1.05s" data-wow-delay="100ms">
                 <img class="img-fluid" src={whatweare} alt="img" />
@@ -50,7 +51,7 @@ const BestCarrierOffer = () => {
                     data-wow-duration="1.05s" data-wow-delay="400ms">
 
                     <div class="offer_item_img">
-                      <img class="pt-2" src="assets/home2/whatweare-icon1.png" alt="icon" />
+                      <img class="pt-2" src={icon1} alt="icon" />
                     </div>
                     <div class="offer_item_content">
                       <h2 class=" text-white">
@@ -71,7 +72,7 @@ const BestCarrierOffer = () => {
                     data-wow-duration="1.05s" data-wow-delay="500ms">
 
                     <div class="offer_item_img">
-                      <img class="pt-2" src="assets/home2/whatweare-icon2.png" alt="icon" />
+                      <img class="pt-2" src={icon2} alt="icon" />
                     </div>
                     <div class="offer_item_content">
                       <h2 class="fs-4 text-white">
@@ -92,7 +93,7 @@ const BestCarrierOffer = () => {
                   <div class="offer_item d-flex flex-lg-row flex-column justify-content-lg-start justify-content-center align-items-start text-lg-start text-center gap-3 wow fadeInUp"
                     data-wow-duration="1.05s" data-wow-delay="600ms">
                     <div class="offer_item_img">
-                      <img class="pt-2" src="assets/home2/whatweare-icon3.png" alt="icon" />
+                      <img class="pt-2" src={icon3} alt="icon" />
                     </div>
                     <div class="offer_item_content">
                       <h2 class="fs-4 text-white">

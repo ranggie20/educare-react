@@ -4,8 +4,8 @@ import link_icon from '../../../assets/home2/link_icon.png';
 import tick from '../../../assets/home2/tick.png';
 import line from '../../../assets/home2/line.svg';
 
-
 const Home2Banner = () => {
+
   return (
     <>
       <section class="banner_wrapper">

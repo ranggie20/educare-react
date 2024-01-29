@@ -7,11 +7,12 @@ import OurPopularCourses from '../../components/Home2/OurPopularCourses/OurPopul
 import FreeWorkShop from '../../components/Home2/FreeWorkShop/FreeWorkShop';
 import OnlineClasses from '../../components/Home2/OnlineClasses/OnlineClasses';
 import Home2Header from './Home2Header';
-import './Home2.css';
+import '../../css/hometwo.css';
+
 
 const Home2 = () => {
     return (
-        <>
+        <div className='position-relative home2_wrapper'>
             <Home2Header />
             <Home2Banner />
             <InterestingQualities />
@@ -20,7 +21,7 @@ const Home2 = () => {
             <OurPopularCourses />
             <FreeWorkShop />
             <OnlineClasses />
-        </>
+        </div>
     );
 };
 

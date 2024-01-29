@@ -9,6 +9,46 @@ import course5 from '../../../assets/home2/course5.png';
 import course6 from '../../../assets/home2/course6.png';
 import arrow from '../../../assets/home2/arrow-right.svg';
 import rightArrow from '../../../assets/home2/right-arrow.png';
+
+// const coursesData = [
+//   {
+//     title: 'UI/UX Design',
+//     description: 'How to apply design thinking to your project to generate innovative and user-centric solutions.',
+//     image: '../../../assets/home2/course1.png',
+//     link: 'Course1.html',
+//   },
+//   {
+//     title: 'Data Science',
+//     description: 'Learn how to apply data science techniques to analyze and interpret data.',
+//     image: '../../../assets/home2/course2.png',
+//     link: 'Course2.html',
+//   },
+//   {
+//     title: 'Web Development',
+//     description: 'Build responsive and interactive websites using the latest web development technologies.',
+//     image: '../../../assets/home2/course3.png',
+//     link: 'Course3.html',
+//   },
+//   {
+//     title: 'Strategy & Research',
+//     description: 'Develop effective strategies and conduct research for business success.',
+//     image: '../../../assets/home2/course4.png',
+//     link: 'Course4.html',
+//   },
+//   {
+//     title: 'Business Analysis',
+//     description: 'Learn the skills needed for effective business analysis and decision-making.',
+//     image: '../../../assets/home2/course5.png',
+//     link: 'Course5.html',
+//   },
+//   {
+//     title: 'Sales & Marketing',
+//     description: 'Explore strategies and techniques for successful sales and marketing.',
+//     image: '../../../assets/home2/course6.png',
+//     link: 'Course6.html',
+//   },
+//   // Add more courses as needed
+// ];
 const CourseCategories = () => {
   return (
     <>
@@ -50,14 +90,12 @@ const CourseCategories = () => {
                     <div class="d-flex justify-content-lg-end justify-content-center">
                       <a href="Course1.html">
                         <button class="d-flex align-items-center justify-content-center">
-                          <img class="arrowRight" src={arrow} alit="" />
+                          <img class="arrowRight" src={arrow} alt="arrow" />
                           <img class="arrowRightTwo d-none" src={rightArrow}
-                            alit="" />
+                            alit="rightArrow" />
                         </button>
                       </a>
-
                     </div>
-
                   </div>
                 </div>
 
@@ -86,7 +124,6 @@ const CourseCategories = () => {
                         </button>
                       </a>
                     </div>
-
                   </div>
                 </div>
 
