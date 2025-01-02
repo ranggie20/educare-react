@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../Home2/Home2.css';
+// import '../../Home2/Home2.css';
 import top_categories from '../../../assets/home2/top_categories.png';
 import course1 from '../../../assets/home2/course1.png';
 import course2 from '../../../assets/home2/course2.png';

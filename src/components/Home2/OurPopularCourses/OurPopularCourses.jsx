@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../Home2/Home2.css';
+// import '../../Home2/Home2.css';
 import f1 from '../../../assets/home1/f1.png'
 import time from '../../../assets/time.png'
 import blog2 from '../../../assets/home1/blog2.webp'

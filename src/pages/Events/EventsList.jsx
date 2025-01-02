@@ -1,5 +1,5 @@
 import React from 'react'
-import './Events.css';
+// import './Events.css';
 import eBanner from '../../assets/home3/e-banner1.png'
 import e1 from '../../assets/home3/e1.png'
 import e2 from '../../assets/home3/e2.png'

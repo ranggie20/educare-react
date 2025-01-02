@@ -5,7 +5,7 @@ import g2 from '../../assets/gallary/g2.png'
 import g3 from '../../assets/gallary/g3.png'
 import g4 from '../../assets/gallary/g4.png'
 import g5 from '../../assets/gallary/g5.png'
-import './Gallary.css';
+// import './Gallary.css';
 const Gallary = () => {
   return (
     <div>

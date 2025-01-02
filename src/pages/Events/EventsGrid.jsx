@@ -4,7 +4,7 @@ import location from '../../assets/about/location.png'
 import time from '../../assets/about/time.png'
 import blog from '../../assets/home1/blog2.webp'
 
-import './Events.css'
+// import './Events.css'
 
 const EventsGrid = () => {
 

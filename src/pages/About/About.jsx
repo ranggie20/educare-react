@@ -6,7 +6,7 @@ import Instructor from '../../components/Instructor/Instructor';
 import StudentsFeedBack1 from '../../components/StudentsFeedBack1/StudentsFeedBack1';
 import Membership from '../../components/Membership/Membership';
 import PageHeader from '../PageHeader/PageHeader';
-import '../../css/aboutUs.css'
+// import '../../css/aboutUs.css'
 
 const About = () => {
   return (

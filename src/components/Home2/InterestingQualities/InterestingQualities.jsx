@@ -1,6 +1,6 @@
 import React from 'react'
 import line from '../../../assets/home2/line.svg';
-import '../../Home2/Home2.css';
+// import '../../Home2/Home2.css';
 
 const InterestingQualities = () => {
   return (

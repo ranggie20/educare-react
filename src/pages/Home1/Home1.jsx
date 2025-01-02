@@ -11,7 +11,7 @@ import LatestBlog from './../../components/Home1/LatestBlog/LatestBlog';
 import Membership from '../../components/Membership/Membership';
 import '../../App.css';
 import '../../index.css';
-import '../../css/style.css'
+// import '../../css/style.css'
 const Home1 = () => {
     return (
         <div>

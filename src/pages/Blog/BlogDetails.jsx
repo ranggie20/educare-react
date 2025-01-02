@@ -1,5 +1,5 @@
 import React from 'react'
-import './Blog.css';
+// import './Blog.css';
 import event1 from '../../assets/events/event1.png'
 import koma1 from '../../assets/blog/koma1.png'
 import f1 from '../../assets/blog/f1.png'

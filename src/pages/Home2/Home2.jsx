@@ -7,7 +7,7 @@ import OurPopularCourses from '../../components/Home2/OurPopularCourses/OurPopul
 import FreeWorkShop from '../../components/Home2/FreeWorkShop/FreeWorkShop';
 import OnlineClasses from '../../components/Home2/OnlineClasses/OnlineClasses';
 import Home2Header from './Home2Header';
-import '../../css/hometwo.css';
+// import '../../css/hometwo.css';
 
 
 const Home2 = () => {
