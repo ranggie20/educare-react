@@ -49,6 +49,8 @@ import rightArrow from '../../../assets/home2/right-arrow.png';
 //   },
 //   // Add more courses as needed
 // ];
+
+
 const CourseCategories = () => {
   return (
     <>

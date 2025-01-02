@@ -7,6 +7,9 @@ import OurPopularCourses from '../../components/Home2/OurPopularCourses/OurPopul
 import FreeWorkShop from '../../components/Home2/FreeWorkShop/FreeWorkShop';
 import OnlineClasses from '../../components/Home2/OnlineClasses/OnlineClasses';
 import Home2Header from './Home2Header';
+import Testimonials2 from '../../components/Testimonials2';
+import Membership from '../../components/Membership';
+import Footer from './Footer';
 // import '../../css/hometwo.css';
 
 
@@ -21,6 +24,9 @@ const Home2 = () => {
             <OurPopularCourses />
             <FreeWorkShop />
             <OnlineClasses />
+            <Testimonials2/>
+            <Membership/>
+            <Footer/>
         </div>
     );
 };
