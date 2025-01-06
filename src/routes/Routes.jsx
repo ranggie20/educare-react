@@ -15,6 +15,7 @@ import BlogDetails from './../pages/Blog/BlogDetails';
 import Blog from "../pages/Blog/Blog";
 import Instructor from './../pages/Instructor/Instructor';
 import Home2 from "../pages/Home2/Home2";
+import Home3 from "../pages/Home3/Home3";
 
 export const router = createBrowserRouter([
     {
@@ -82,6 +83,10 @@ export const router = createBrowserRouter([
     {
         path: '/home2',
         element: <Home2 />
+    },
+    {
+        path: '/home3',
+        element: <Home3 />
     }
 
 

@@ -6,7 +6,8 @@ import blog2 from '../../../assets/home1/blog2.webp'
 import blog3 from '../../../assets/home1/blog3.webp'
 import blog4 from '../../../assets/home1/blog4.webp'
 import blog5 from '../../../assets/home1/blog5.avif'
-import star from '../../../assets/home1/start.png'
+import star from '../../../assets/star.png'
+import yellow from '../../../assets/home2/yellow.png'
 const popularCoursesData = [
   {
     img: f1,
@@ -84,7 +85,7 @@ const OurPopularCourses = () => {
         <section class="home2Feature_course container-fluid p-0">
           <div class="featured_wrapper mb_130">
             <button class="about_btn mb_24 wow fadeInUp" data-wow-duration="1.05s" data-wow-delay="100ms">
-              <img src="/assets/star.png" alt="star" /> Popular Courses
+              <img src={star} alt="star" /> Popular Courses
             </button>
             <h1 class="mb_12 wow fadeInUp" data-wow-duration="1.05s" data-wow-delay="200ms"
               style={{ color: "#131C1E" }}>
@@ -131,15 +132,12 @@ const OurPopularCourses = () => {
                             <img class="w-100" src={f1} alt="" />
                           </div>
 
-                          <div class="home2_course_timing">
-                            <img src={time} alt="" />20 hour
-                          </div>
                         </div>
 
                         <div>
                           <p class="rating_number mb_18 fs_16">23 hr 45 min</p>
                           <a href="Course1.html">
-                            <h3 class="mb_30">Web Development : <br />
+                            <h3 class="mb_30" style={{color:"black"}}>Web Development : <br />
                               The Complete Programming
                               Course</h3>
                           </a>
@@ -147,7 +145,7 @@ const OurPopularCourses = () => {
                           <div class="d-flex justify-content-between">
                             <div class="d-flex align-items-center gap-2">
                               <button class="rating">
-                                <img class="w-100" src={star} alt="" />
+                                <img class="w-100" src={yellow} alt="" />
                                 <span>4.8</span>
                               </button>
                               <p class="rating_number">(4563)</p>

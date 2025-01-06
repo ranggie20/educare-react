@@ -1,6 +1,6 @@
 import React from "react";
 // import './NavBar.css';
-import logo from "../../assets/home1/greenlogo1.png";
+import brandlogo from "../../assets/home2/brand-logo.png";
 import user from "../../assets/home1/user-circle.png";
 
 const Home2Header = () => {
@@ -9,7 +9,7 @@ const Home2Header = () => {
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <a className="navbar-brand" href="/">
-            <img className="img-fluid logoImg" src={logo} alt="Logo" />
+            <img className="img-fluid logoImg" src={brandlogo} alt="Logo" />
           </a>
           <button
             className="navbar-toggler"

@@ -35,7 +35,10 @@ const BestCarrierOffer = () => {
                 </button>
 
                 <h2
-                  className="category_title text-white wow fadeInUp"
+                  className="weoffer text-white wow fadeInUp"
+                  style={{
+                    marginBottom:"24px"
+                  }}
                   data-wow-duration="1.05s"
                   data-wow-delay="300ms"
                 >

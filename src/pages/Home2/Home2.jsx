@@ -15,7 +15,9 @@ import Footer from './Footer';
 
 const Home2 = () => {
     return (
-        <div className='position-relative home2_wrapper'>
+        <div className='position-relative home2_wrapper' style={{
+            backgroundColor:"#F7F6FF"
+        }}>
             <Home2Header />
             <Home2Banner />
             <InterestingQualities />

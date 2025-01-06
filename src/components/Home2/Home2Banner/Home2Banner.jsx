@@ -3,7 +3,7 @@ import banner from '../../../assets/home2/banner-img.png';
 import link_icon from '../../../assets/home2/link_icon.png';
 import tick from '../../../assets/home2/tick.png';
 import line from '../../../assets/home2/line.svg';
-
+import yellow from '../../../assets/home2/yellow.png'
 const Home2Banner = () => {
 
   return (
@@ -101,7 +101,7 @@ const Home2Banner = () => {
             </div>
           </div>
           <div className="text-center rotate_animated_element" style={{ marginBottom: '65px' }}>
-            <img style={{ width: '38px', height: '38px', marginRight: '20px' }} src="/assets/home2/yellow.png" alt="" />
+            <img style={{ width: '38px', height: '38px', marginRight: '20px' }} src={yellow} alt="" />
           </div>
           <div className="banner_message">
             <p className="m-0 fs_18 fw-normal text-clr-neutralColor d-lg-block d-none">
