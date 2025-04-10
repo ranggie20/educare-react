@@ -14,7 +14,6 @@ import Error404 from "../pages/Error404";
 import BlogDetails from './../pages/Blog/BlogDetails';
 import Blog from "../pages/Blog/Blog";
 import Instructor from './../pages/Instructor/Instructor';
-import Home2 from "../pages/Home2/Home2";
 
 export const router = createBrowserRouter([
     {
@@ -79,10 +78,5 @@ export const router = createBrowserRouter([
             },
         ]
     },
-    {
-        path: '/home2',
-        element: <Home2 />
-    }
-
 
 ])
