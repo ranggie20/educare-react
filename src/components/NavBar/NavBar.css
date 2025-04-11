@@ -1,0 +1,36 @@
+/* === Dropdown Menu Styling === */
+.dropdown-menu {
+    background-color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 0;
+    min-width: 180px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    transition: all 0.2s ease-in-out;
+    z-index: 9999;
+  }
+  
+  .dropdown-menu a.dropdown-item {
+    padding: 10px 18px;
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .dropdown-menu a.dropdown-item:hover {
+    background-color: #B6EC3D;
+    color: #131C1E;
+  }
+  
+  /* Optional: Arrow icon spacing fix */
+  .navbar .fa {
+    font-size: 12px;
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar .dropdown-toggle[aria-expanded="true"] .fa {
+    transform: rotate(180deg);
+  }
+  
