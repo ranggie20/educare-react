@@ -33,4 +33,7 @@
   .navbar .dropdown-toggle[aria-expanded="true"] .fa {
     transform: rotate(180deg);
   }
+  .authBtn {
+    margin-left: -300px; 
+}
   

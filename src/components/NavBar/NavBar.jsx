@@ -40,7 +40,7 @@ const NavBar = () => {
                                 <a className="nav-link" href="/course">SERTIFIKASI</a>
                             </li>
 
-                            <li className="nav-item dropdown mx-3">
+                            {/*<li className="nav-item dropdown mx-3">
                                 <a
                                     className="nav-link dropdown-toggle d-flex align-items-center gap-2 justify-content-center"
                                     href="#"
@@ -55,7 +55,7 @@ const NavBar = () => {
                                     <li><a className="dropdown-item" href="/galeri-foto">Foto</a></li>
                                     <li><a className="dropdown-item" href="/galeri-vidio"> Video</a></li>
                                 </ul>
-                            </li>
+                            </li>*/}
 
                             <li className="nav-item mx-3">
 
@@ -63,14 +63,15 @@ const NavBar = () => {
                             </li>
 
                         </ul>
-                        <form className="d-flex gap-4 authBtn">
+                        <form className="d-flex gap-2 authBtn">
                             <button className="signup_button">
                                 <a href="/signup" type="submit" className="signup_button">
                                     <img src={user} alt="" />
-                                    Create Account
+                                    REGISTER
                                 </a>
                             </button>
                         </form>
+
                     </div>
                 </div>
             </nav>
