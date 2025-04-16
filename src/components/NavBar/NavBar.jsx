@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavBar.css';
-import logo from '../../assets/home1/greenlogo1.png';
+import logo from '../../assets/logo/lsp-bnsp.png';
 import user from '../../assets/home1/user-circle.png';
 
 const NavBar = () => {
